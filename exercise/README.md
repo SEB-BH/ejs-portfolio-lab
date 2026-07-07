@@ -76,9 +76,9 @@ Inside the `views` folder, create these files and folders:
 touch views/home.ejs
 mkdir views/skills
 mkdir views/projects
-touch views/skills/index.ejs
-touch views/projects/index.ejs
-touch views/projects/show.ejs
+touch views/skills.ejs
+touch views/projects.ejs
+touch views/projects-show.ejs
 ```
 
 Your file structure should now look like this:
