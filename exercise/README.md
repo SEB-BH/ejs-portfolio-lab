@@ -77,6 +77,8 @@ touch views/home.ejs
 touch views/skills.ejs
 touch views/projects.ejs
 touch views/projects-show.ejs
+mkdir views/partials
+touch views/partials/nav.ejs
 ```
 
 Your file structure should now look like this:
