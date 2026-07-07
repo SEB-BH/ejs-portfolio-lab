@@ -11,12 +11,12 @@ Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 cd ~/code/ga/labs
 ```
 
-Make a new repository on [GitHub](https://github.com/) named ejs-lab.
+Make a new repository on [GitHub](https://github.com/) named ejs-portfolio-lab.
 
 Clone a copy of your remote repo locally by using the `git clone` command:
 
 ```bash
-git clone https://github.com/<your-username>/ejs-lab.git
+git clone https://github.com/<your-username>/ejs-portfolio-lab.git
 ```
 
 > 📚 Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.

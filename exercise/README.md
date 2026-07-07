@@ -90,11 +90,9 @@ ejs-portfolio-lab/
 │       └── style.css
 ├── views/
 │   ├── home.ejs
-│   ├── skills/
-│   │   └── index.ejs
-│   └── projects/
-│       ├── index.ejs
-│       └── show.ejs
+│   ├── skills.ejs
+│   ├── projects.ejs
+│   └── projects-show.ejs
 ├── package.json
 ├── package-lock.json
 └── server.js
@@ -270,7 +268,7 @@ In `server.js`, create a route for `/skills`.
 
 Pass the `skills` array into the EJS file.
 
-In `views/skills/index.ejs`, loop over the skills array.
+In `views/skills.ejs`, loop over the skills array.
 
 Test your route:
 
@@ -287,7 +285,7 @@ In `server.js`, create a route for `/projects`.
 Pass the `projects` array into the EJS file.
 
 
-In `views/projects/index.ejs`, loop over the projects array.
+In `views/projects.ejs`, loop over the projects array.
 
 Each project should link to its own show page.
 
@@ -315,7 +313,7 @@ This route should use `req.params.projectId` to find one project.
 
 ## Step 9: Build the project show page
 
-In `views/projects/show.ejs`, display one project.
+In `views/projects-show.ejs`, display one project.
 
 This page should show more detail than the projects index page.
 
