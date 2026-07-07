@@ -74,8 +74,6 @@ Inside the `views` folder, create these files and folders:
 
 ```bash
 touch views/home.ejs
-mkdir views/skills
-mkdir views/projects
 touch views/skills.ejs
 touch views/projects.ejs
 touch views/projects-show.ejs
@@ -89,6 +87,8 @@ ejs-portfolio-lab/
 │   └── css/
 │       └── style.css
 ├── views/
+│   └── partials/
+│       └── nav.ejs
 │   ├── home.ejs
 │   ├── skills.ejs
 │   ├── projects.ejs
