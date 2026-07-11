@@ -69,16 +69,7 @@
       "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
-        {
-          "friendlyName": "Setup",
-          "dirName": "setup",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
+
         {
           "friendlyName": "Exercise",
           "dirName": "exercise",
